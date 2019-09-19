@@ -252,20 +252,23 @@ input[type=submit] {
   header {
     max-width: auto;
   }
-  nav {
-    margin-left: 55%;
-
-  }
   .main-section {
     max-width: 648px;
     margin-left: 20px;
   }
   .container {
     max-width: 768px;
-  }
-  .work {
+  }  
+  .work:nth-child(even) {
     margin-right: 30px;
   }
+  .work {
+    margin-left: 25%;
+  }
+  .work:nth-child(even){
+    margin-left: 25%;
+  }
+
 }
 
 
@@ -292,11 +295,11 @@ input[type=submit] {
     margin: 0px;
   }
   .main-section {
-    max-width: 640px;
+    max-width: 565px;
     padding-top: 0px;
     margin-top: 45px;
   }
-  img {
+  #me {
     margin-right: 30%;
     margin-left: 30%;
     margin-top: 10px;

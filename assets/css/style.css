@@ -263,6 +263,9 @@ input[type=submit] {
   .container {
     max-width: 768px;
   }
+  .work {
+    margin-right: 30px;
+  }
 }
 
 
